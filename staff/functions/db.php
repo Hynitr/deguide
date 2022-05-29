@@ -1,7 +1,6 @@
 <?php
 //creating the database to use
-//$con = mysqli_connect("localhost","root","","cbt");
-$con = mysqli_connect("localhost","fountai3_user","securemelikekilode","fountai3_cbt");
+$con = mysqli_connect("localhost","root","","cbt");
 
 function row_count($result) {
 	global $con;
